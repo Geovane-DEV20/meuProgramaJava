@@ -15,5 +15,13 @@ public class Principal {
 		//Saldação específica para o nome lido.
 		System.out.printf("Olá %s!\n", nome);
 		
+		//Perguntar a Idade
+		System.out.printf("%s, qual a sua idade?", nome);
+		
+		// Ler Idade.
+		Integer idade = in.nextInt();
+		
+		System.out.printf("%d! Puxa! Como você é jovem!", idade);
+		
 	}
 }
